@@ -1,0 +1,66 @@
+div p {
+    color: red;
+}
+
+div h2 {
+    color: green;
+}
+
+p {
+	color: orange;
+}
+
+h2 {
+	color: brown;
+}
+
+#test {
+	color: blue;
+}
+
+.bbb{
+	color: silver;
+}
+
+.bbb#test{
+	color: #ccbb08;
+}
+
+p.bbb {
+	color: #0099ff;
+
+}
+
+h2.bbb {
+	color: #bb00ff;
+}
+.bbb,
+.xxx {
+	color: #ff6500;
+}
+
+p.bbb,
+h2.xxx {
+	background: yellow;
+}
+
+p.bbb#test,
+p.xxx#test{
+	background: black;
+	color: #00ccdd;
+}
+
+.fff {
+	background: silver;
+}
+
+.fff p{
+	color: white;
+}
+
+.fff h2	{
+	color: black;
+	}
+p.fff{
+	color: green;
+}

@@ -1,0 +1,48 @@
+body {
+    font-family: Verdana, Georgia, "Times New Roman";
+    font-size: 16px;
+}
+
+h1 {
+    color: #ff0000;
+    font-family: Arial/serif;
+    text-align: center;
+}
+
+h2 {
+    color: #55AA55;
+    font-family: serif;
+}
+
+ol {
+    color: #ff0000;
+}
+
+ul {
+    color: #A16078;
+    font-style: italic;
+    
+
+}
+
+li {
+    text-align: left;
+    width: 500px;
+}
+
+p {
+    text-align: justify;
+    width: 650px;
+    line-height: 32px;
+}
+
+b {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+i {
+    color: #2727FF;
+    font-size: 20px;
+}

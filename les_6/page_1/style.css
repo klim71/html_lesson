@@ -1,0 +1,23 @@
+body{
+	text-align: justify;
+	width: 400px;
+	font-family: Verdana;
+}
+
+h4, h3{
+	color: green;
+	text-align: center;
+}
+b{
+	color: red;
+	font-weight: bold;
+
+}
+i{
+	color: blue;
+	font-style: italic;
+}
+p{
+	text-indent: 30px;
+	line-height: 30px;
+}

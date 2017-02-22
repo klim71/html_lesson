@@ -1,0 +1,160 @@
+«адачи на работу с HTML таблицами
+
+1.ѕростые таблицы
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ѕростые таблицы</title>
+</head>
+
+<body>
+  <table border="1">
+    <tr>
+      <td>€чейка 1</td>
+      <td>€чейка 2</td>
+      <td>€чейка 3</td>
+    </tr>
+    <tr>
+      <td>€чейка 4</td>
+      <td>€чейка 5</td>
+      <td>€чейка 6</td>
+    </tr>
+    <tr>
+      <td>€чейка 7</td>
+      <td>€чейка 8</td>
+      <td>€чейка 9</td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
+2.ƒобавим заголовки, атрибуты width (400) и height (200)
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>«аголовки, атрибуты</title>
+</head>
+
+<body>
+  <table border="1" cellspacing=0 width="400" height="200">
+    <tr>
+      <th>€чейка 1</th>
+      <th>€чейка 2</th>
+      <th>€чейка 3</th>
+    </tr>
+    <tr>
+      <td>€чейка 4</td>
+      <td>€чейка 5</td>
+      <td>€чейка 6</td>
+    </tr>
+    <tr>
+      <td>€чейка 7</td>
+      <td>€чейка 8</td>
+      <td>€чейка 9</td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
+3. выравнивание align
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>выравнивание align </title>
+</head>
+
+<body>
+  <table border="1" cellspacing=0 width="400" height="200">
+    <tr>
+      <th>€чейка 1</th>
+      <th>€чейка 2</th>
+      <th>€чейка 3</th>
+    </tr>
+    <tr>
+      <td align="right">€чейка 4</td>
+      <td>€чейка 5</td>
+      <td>€чейка 6</td>
+    </tr>
+    <tr>
+      <td>€чейка 7</td>
+      <td align="center">€чейка 8</td>
+      <td align="right">€чейка 9</td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
+4. «аключение
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>«акрепление</title>
+</head>
+
+<body>
+  <table border="1" cellspacing=0 width="400">
+    <tr>
+      <th>номер</th>
+      <th>тег</th>
+      <th>значение</th>
+    </tr>
+    <tr align="center">
+      <td>1</td>
+      <td>p</td>
+      <td>абзац</td>
+    </tr>
+    <tr align="center">
+      <td>2</td>
+      <td>a</td>
+      <td>ссылка</td>
+    </tr>
+    <tr align="center">
+      <td>3</td>
+      <td>b</td>
+      <td>жирный текст</td>
+    </tr>
+    <tr align="center">
+      <td>4</td>
+      <td>i</td>
+      <td>курсив</td>
+    </tr>
+    <tr align="center">
+      <td>5</td>
+      <td>table</td>
+      <td>таблица</td>
+    </tr>
+    <tr align="center">
+      <td>6</td>
+      <td>tr</td>
+      <td>р€д таблицы</td>
+    </tr>
+    <tr align="center">
+      <td>7</td>
+      <td>td</td>
+      <td>€чейка таблицы</td>
+    </tr>
+    <tr align="center">
+      <td>8</td>
+      <td>th</td>
+      <td>заголовок аблицы</td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
