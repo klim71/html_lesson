@@ -2,24 +2,43 @@ h2 {
 	text-align: center;
 }
 
-#test a:link,
-#test a:visited {
-	text-decoration: none;
+#test:link,
+#test:visited {
 	color: red;
-}
-
-#test a:hover {
-	text-decoration: underline;
-	color: blue;
-}
-
-.www a {
-	text-decoration: underline;
-	color: blue;
-}
-.www a:hover {
 	text-decoration: none;
 }
 
+#test:hover{
+	color:blue;
+	text-decoration: underline;
+}
 
-.eee
+.www:link,
+.www:visited {
+	color: blue;
+	text-decoration: underline;
+}
+
+.www:hover{
+	text-decoration: none;
+}
+
+.eee.www:link {
+	color: red;
+	text-decoration: overline;
+}
+
+.eee.www:visited {
+	color: orange;
+	text-decoration: line-through;
+}
+
+
+.eee.www:hover{
+	color: green;
+	text-decoration: underline;
+}
+
+
+
+
