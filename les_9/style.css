@@ -1,7 +1,15 @@
 body {
-  background: url("font1.jpg");
+	color: white;
+  background: black left top no-repeat url("font3.jpg");
+  background-attachment: scroll;
+}
+
+h1, p {width : 500px;}
+h1 {
+	text-align: center;
+	
 }
 p {
-  width : 500px;
   text-align: justify;
+  font-size: 16pt;
 }

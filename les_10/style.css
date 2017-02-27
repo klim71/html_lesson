@@ -1,0 +1,15 @@
+#d1 {
+	width: 200px;
+	height: 200px;
+	margin: 50px auto 50px 40px;
+	border: 1px solid red;
+}
+
+#d2 {
+	width: 200px;
+	border: 1px solid  green;
+	padding: 30px;
+	margin: 0 auto auto 40px;
+	text-align: justify;
+	font-family: sans-serif;
+}
